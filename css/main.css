@@ -417,3 +417,19 @@ section#home-hero{
 		color: #555!important;
 		}
 }
+
+
+#logo {
+    font-size: 20px;
+    text-align: right;
+    vertical-align: bottom;
+    width: 100%;
+}
+
+#logo img{
+    float: left;
+}
+
+#logo div{
+    font-size:150%;
+}
