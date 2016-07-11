@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    
-    
-    
-    <url>
-        <loc>http://example.com/blog/post6/</loc>
-    </url>
-    
-    <url>
-        <loc>http://example.com/blog/post5/</loc>
-    </url>
-    
-    <url>
-        <loc>http://example.com/blog/post4/</loc>
-    </url>
-    
-    <url>
-        <loc>http://example.com/blog/post3/</loc>
-    </url>
-    
-    <url>
-        <loc>http://example.com/blog/post2/</loc>
-    </url>
-    
-    <url>
-        <loc>http://example.com/blog/post1/</loc>
-    </url>
-    
+  <url>
+      <loc>http://example.com/blog/post6/</loc>
+      <lastmod>2015-12-27</lastmod>
+      <changefreq>never</changefreq>
+  </url>
+  <url>
+      <loc>http://example.com/blog/post5/</loc>
+      <lastmod>2015-12-26</lastmod>
+      <changefreq>never</changefreq>
+  </url>
+  <url>
+      <loc>http://example.com/blog/post4/</loc>
+      <lastmod>2015-12-25</lastmod>
+      <changefreq>never</changefreq>
+  </url>
+  <url>
+      <loc>http://example.com/blog/post3/</loc>
+      <lastmod>2015-12-24</lastmod>
+      <changefreq>never</changefreq>
+  </url>
+  <url>
+      <loc>http://example.com/blog/post2/</loc>
+      <lastmod>2015-12-15</lastmod>
+      <changefreq>never</changefreq>
+  </url>
+  <url>
+      <loc>http://example.com/blog/post1/</loc>
+      <lastmod>2015-12-14</lastmod>
+      <changefreq>never</changefreq>
+  </url>
 </urlset>
