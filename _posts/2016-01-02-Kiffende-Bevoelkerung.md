@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: Another boy was sliding down the hallway
+title: Die kiffende Bevölkerung hat Plastik ja schon lange aus ihren Tüten verbannt
 category: blog
-tags: [human]  
-summary: Suddenly Johny gets the feeling he's been surrounded by
+tags: [sucht,umwelt]  
+summary: Legalize it
 image: /images/blog/kiffendebevoelkerung.jpg
 ---
