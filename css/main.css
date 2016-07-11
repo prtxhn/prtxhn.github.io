@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Doppio+One);
 @import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 
 img, embed, object{
@@ -433,4 +434,8 @@ section#home-hero{
 #logo div{
     font-size:150%;
     font-family: monospace;
+}
+
+body{
+    font-family: "Montserrat", Verdana, Tahoma;
 }
