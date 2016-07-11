@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Doppio+One);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 
@@ -418,14 +419,7 @@ section#home-hero{
 		color: #555!important;
 		}
 }
-
-
-#logo {
-    font-size: 20px;
-    text-align: right;
-    vertical-align: bottom;
-    width: 100%;
-}
+ 
 
 #logo img{
     float: left;
@@ -436,6 +430,4 @@ section#home-hero{
     font-family: monospace;
 }
 
-#logo a{
-    font-family: "Montserrat", Verdana, Tahoma;
-}
+ 
