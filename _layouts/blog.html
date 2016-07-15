@@ -16,14 +16,59 @@
 
 
 			<div style='clear: both'></div>
-		</div>
-		<div id='content'>
+		</div> 
+		<div id='content' style='background-image:url("{{page.image}}"); background-position: center center;   background-size: cover;' class="layer">
 
 			<div id='page'>
-				<h1 id='page-title'>{{page.title}}</h1>
-				{{content}}
+        <img src="{{ page.image }}" class="mainimg"/> 
+        <h1 id='page-title'>{{page.title}}</h1>
+        <h2 id='page-summary'>{{page.summary}}</h1> 
+        
+        {%assign programm = site.data.programm%} 
 
-				{% include comment.html %}
+				<!--programm chapters-->
+        <h2>Unsere Standpunkte</h2>
+				<div id="programchapters">
+          {%for tag in page.tags%} 
+            {%for p in programm%} 
+              {%if  p[0] == tag %}
+              <h3>{{ p[1][0] }}</h3>
+              <div class="programcontent">   
+                <p>
+                {{ p[1][1]}}
+                </p>
+              </div>
+              {%endif%}
+            {%endfor%}
+          {%endfor%}
+				</div>
+				
+            <hr />
+        <ul id="relatedposters"> <!--programm chapters-->
+          {%for otherpage in site.categories.blog%} 
+            {%for tag1 in otherpage.tags%} 
+              {%for tag2 in page.tags%} 
+                {%if tag1 == tag2 %} 
+                  {%if otherpage.id != page.id%}
+                  <li>  
+<!--                     {{otherpage.title}} -->
+                    <a href="{{otherpage.url}}">
+                      <img src="{{otherpage.image}}"/>
+                    </a>
+                    
+<!--                     {{otherpage.path}} -->
+                  </li>
+                  {%endif%}
+                {%endif%}
+              {%endfor%}
+            {%endfor%}
+          {%endfor%}
+				</ul>
+				
+				
+				
+				
+				
 
 			</div>
 
@@ -31,8 +76,8 @@
 		</div>
 		<div id='footer'>
 			{{site.full_name}} - {{site.copyright_year}}
-		</div>
-	</div>
+			</div>
+			</div> 
 
 </body>
 </html>
