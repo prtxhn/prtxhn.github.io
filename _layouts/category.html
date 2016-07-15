@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="/css/socialicious.css">
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/css/monokai.css">
+		<link href="/blog/rss.xml" rel="alternate" type="application/rss+xml" title="{{site.blog_title}}" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>{{page.title}} - {{ site.blog_title }}</title>
+		<script type="text/javascript" src='/js/highlight.pack.js'></script>
+		<script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+	</head>
+	<body>
+		<div id='layout'>
+			{% include header.html %}
+
+
+			<div style='clear: both'></div>
+		</div> 
+		<div id='content' style='background-image:url("{{page.image}}"); background-position: center center;   background-size: cover;' class="layer">
+
+			<div id='page'>
+        <div class="categoryimgwrapper"/> 
+        <ul id="categoryimglist"> <!--programm chapters-->
+        {%for otherpage in site.categories.blog%} 
+        {%for tag1 in otherpage.tags%} 
+        {%for tag2 in page.tags%} 
+        {%if tag1 == tag2 %} 
+        {%if otherpage.id != page.id%}
+        <li>  
+        <!--                     {{otherpage.title}} -->
+        <a href="{{otherpage.url}}">
+        <img src="{{otherpage.image}}"/>
+        </a>
+        
+        <!--                     {{otherpage.path}} -->
+        </li>
+        {%endif%}
+        {%endif%}
+        {%endfor%}
+        {%endfor%}
+        {%endfor%}
+        </ul>
+        </div>
+        <h1 id='page-title'>{{page.title}}</h1>
+<!--         <h2 id='page-summary'>{{page.summary}}</h1>  -->
+        
+        {%assign programm = site.data.programm%} 
+
+				<!--programm chapters--> 
+				<div id="programchapters">
+          {%for tag in page.tags%} 
+            {%for p in programm%} 
+              {%if  p[0] == tag %}
+                {%assign tagline = p[1][0] %}
+                {%assign programmcontent = p[1][1] %} 
+              {%endif%}
+          {%endfor%}
+        {%endfor%}
+              <div class="tagline"> {{ tagline }} </div>
+              <h3>{{tag}}</h3>
+              <div class="programcontent">   
+                <p>
+                {{ programmcontent }}
+                </p>
+              </div>
+				</div> 
+      </div>
+			
+
+			<div style='clear:both'></div>
+		</div>
+		<div id='footer'>
+			{{site.full_name}} - {{site.copyright_year}}
+			</div>
+			</div> 
+
+</body>
+</html>
