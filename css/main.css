@@ -431,4 +431,18 @@ section#home-hero{
     font-family: monospace;
 }
 
+#navi{
+  
+}
+
+#navi li{
+  display: inline;
+  
+}
  
+ 
+#photoattribution {
+ color: gray;
+ float: right;
+ font-size: 60%; 
+}

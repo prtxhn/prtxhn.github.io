@@ -1,6 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Doppio+One);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 
 img, embed, object{
@@ -101,7 +103,7 @@ h1 {
     font-size: 20px;
     color: #666;
     text-decoration: none;
-    font-family: "Raleway";
+/*     font-family: "Raleway"; */
 }
 
 
@@ -351,7 +353,8 @@ only screen and (max-width: 600px) {
 }
 
 section{
-	background-image: url('/images/18asaigon-hero.jpg');
+/*         background-image: url('/images/18asaigon-hero.jpg'); */
+        background-image: url('/images/rolltreppe.jpg');
 	background-size: cover;
 background-position: center;
 	height:100px;
@@ -415,4 +418,31 @@ section#home-hero{
 		margin-top: 40px;
 		color: #555!important;
 		}
+}
+ 
+
+#logo img{
+    float: left;
+    box-shadow: 0 0px 0px #000 !important;
+}
+
+#logo div{
+    font-size:150%;
+    font-family: monospace;
+}
+
+#navi{
+  
+}
+
+#navi li{
+  display: inline;
+  
+}
+ 
+ 
+#photoattribution {
+ color: gray;
+ float: right;
+ font-size: 60%; 
 }
