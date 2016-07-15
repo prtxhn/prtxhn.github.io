@@ -446,3 +446,7 @@ section#home-hero{
  float: right;
  font-size: 60%; 
 }
+
+a:hover{
+  color:#eee;
+}
