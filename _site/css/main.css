@@ -123,8 +123,9 @@ h1 {
 
 #content {
     margin: 0px 15% 0px ;
-		background: #f4f4f4;
-		padding-top: 20px;
+    background: #f4f4f4;
+    padding-top: 20px;
+    padding-bottom: 20px;
 		margin-top: 40px;
 }
 
@@ -502,6 +503,16 @@ section#home-hero{
   margin-left:15px;
 }
 
+#categoryimglist{
+  width:100%;
+}
+#categoryimglist li{
+  display:inline;
+  width:50%; 
+  margin:-1px;
+  vertical-align:top;
+}
+
 .mainimg{
   width:40%;
   min-width:200px;
@@ -509,11 +520,25 @@ section#home-hero{
   margin:10px;
 }
 
- 
+
+
+.categoryimgwrapper{
+  width:40%;
+  min-width:200px;
+  float: right;
+  margin:10px;
+}
+
+.categoryimgwrapper img{
+  width:45%;
+}
+
 
 #programchapters h3{
   border-bottom: 3px solid #666;
   color:#ccc;
+  font-size:150%;
+  width:99%;
 }
 
 #programcontent{
@@ -546,4 +571,22 @@ section#home-hero{
 
 #programcontent p{
   padding:5px;
+}
+
+#page-title{
+  color:#ccc;
+  font-size:300%;
+}
+
+.tagline{
+  width:30%;
+  float:right;
+/*   margin-top:-5px; */
+  margin-right:20px;
+  background:white;
+  font-family:monospace;
+  color:black;
+  background:white;
+  border-color:red;
+  box-shadow: 3px 3px 0px gray;
 }

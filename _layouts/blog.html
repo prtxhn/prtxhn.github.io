@@ -22,17 +22,18 @@
 			<div id='page'>
         <img src="{{ page.image }}" class="mainimg"/> 
         <h1 id='page-title'>{{page.title}}</h1>
-        <h2 id='page-summary'>{{page.summary}}</h1> 
+<!--         <h2 id='page-summary'>{{page.summary}}</h1>  -->
         
         {%assign programm = site.data.programm%} 
 
 				<!--programm chapters-->
-        <h2>Unsere Standpunkte</h2>
+        <h2>Unsere Standpunkte:</h2>
 				<div id="programchapters">
           {%for tag in page.tags%} 
             {%for p in programm%} 
               {%if  p[0] == tag %}
-              <h3>{{ p[1][0] }}</h3>
+              <div class="tagline"> {{ p[1][0] }} </div>
+              <h3>{{tag}}</h3>
               <div class="programcontent">   
                 <p>
                 {{ p[1][1]}}
