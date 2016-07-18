@@ -636,3 +636,40 @@ color:white;
 text-align:center;
 vertical-align:middle;
 }
+
+
+.listenkandidat{
+  max-width:800px;
+  float:none;
+  clear:both;
+  text-align:left;
+}
+
+
+.listenkandidat:nth-child(even) {
+  background:#333;
+}
+
+.listenkandidat:nth-child(odd) {
+  background:#444;
+}
+
+
+.listenkandidat:nth-child(2n) img{
+  float:left;
+  margin-right: 5px;
+}
+
+.listenkandidat:nth-child(2n-1) img{
+  float:right;
+  margin-left:5px;
+}
+
+.listenkandidat img{
+  width:300px;
+  box-shadow: 0 0px 5px #333;        
+}
+
+.listenkandidat h2{
+  margin-left:10px;
+}
