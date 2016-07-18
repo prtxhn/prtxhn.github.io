@@ -608,6 +608,7 @@ section#home-hero{
   border:4px solid #ccc;  
   margin-right: -15px;
   margin-top: -35px;
+  opacity: .8;
 }
 
 #closer div{
