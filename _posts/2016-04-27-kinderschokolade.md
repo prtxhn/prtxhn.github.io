@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Beyond good and evil
+title: FCK AFD
 category: blog
 tags: [Migration]  
 summary:  
