@@ -5,8 +5,8 @@
     <description></description>
     <link>http://www.prtxhn.de/</link>
     <atom:link href="http://www.prtxhn.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Jul 2016 00:06:07 +0200</pubDate>
-    <lastBuildDate>Tue, 19 Jul 2016 00:06:07 +0200</lastBuildDate>
+    <pubDate>Tue, 19 Jul 2016 00:17:26 +0200</pubDate>
+    <lastBuildDate>Tue, 19 Jul 2016 00:17:26 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -48,21 +48,6 @@
         <pubDate>Sat, 16 Jul 2016 00:00:00 +0200</pubDate>
         <link>http://www.prtxhn.de/blog/Miete/</link>
         <guid isPermaLink="true">http://www.prtxhn.de/blog/Miete/</guid>
-        
-        <category>Stadtentwicklung</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Gefahrengebiet A100</title>
-        <description>
-</description>
-        <pubDate>Sat, 16 Jul 2016 00:00:00 +0200</pubDate>
-        <link>http://www.prtxhn.de/blog/A100/</link>
-        <guid isPermaLink="true">http://www.prtxhn.de/blog/A100/</guid>
         
         <category>Stadtentwicklung</category>
         
@@ -157,6 +142,21 @@
         <category>Bürgerbeteiligung</category>
         
         <category>Migration</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Beyond good and evil</title>
+        <description>
+</description>
+        <pubDate>Sat, 21 May 2016 00:00:00 +0200</pubDate>
+        <link>http://www.prtxhn.de/blog/willstdumitmirwaehlen/</link>
+        <guid isPermaLink="true">http://www.prtxhn.de/blog/willstdumitmirwaehlen/</guid>
+        
+        <category>Verwaltung</category>
         
         
         <category>blog</category>
