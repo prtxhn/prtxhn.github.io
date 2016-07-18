@@ -172,7 +172,7 @@ h1 {
 	width: 250px;
 	box-shadow: 0 0px 0px #cccccc;
 	border-radius: 0px;
-    	//margin: 10px 0px 10px 0px;
+        margin-top:2px;
 }
 
 .post-date {
@@ -527,7 +527,7 @@ section#home-hero{
   width:40%;
   min-width:200px;
   float: right;
-  margin:10px;
+/*   margin:10px; */
 }
 
 
@@ -540,7 +540,8 @@ section#home-hero{
 }
 
 .categoryimgwrapper img{
-  width:45%;
+  width:45% !important;
+  min-width:100px;
 }
 
 
@@ -551,8 +552,9 @@ section#home-hero{
   width:99%;
 }
 
-#programcontent{
-  color:#bbb;
+.programcontent{
+/*   color:#bbb; */
+  padding:5px;
 }
 
 #page{
@@ -612,9 +614,9 @@ section#home-hero{
 }
 
 #closer div{
-  border-left:4px solid white;
+  border-left:4px solid #999;
   border-top:4px solid gray;
-  border-right:4px solid white;
+  border-right:4px solid #999;
   border-bottom:4px solid gray;
 vertical-align:middle;
 }
@@ -624,9 +626,9 @@ vertical-align:middle;
   width:10px;
   height:10px;
   border-left:8px solid gray;
-  border-top:8px solid white;
+  border-top:8px solid #999;
   border-right:8px solid gray;
-  border-bottom:8px solid white;
+  border-bottom:8px solid #999;
 vertical-align:middle;
 }
 
