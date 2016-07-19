@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: Beyond good and evil
+title: Warum häng ich hier eigentlich
 category: blog
 tags: [Verwaltung,Bürgerbeteiligung]  
-summary:  
+summary:  Ihr geht ja eh nicht wählen
 image: /images/blog/hierhaengen.jpg
 ---

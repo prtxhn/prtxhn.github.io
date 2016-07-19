@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Beyond good and evil
+title: Berlin. Wir können alles. Außer alles.
 category: blog
 tags: [Finanzen]  
 summary: 
