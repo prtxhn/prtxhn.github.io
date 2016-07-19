@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: Beyond good and evil
+title: Macht Lack
 category: blog
 tags: [Sucht]  
-summary:  
+summary:  Mein Dope ist alle
 image: /images/blog/machtlack.jpg
 ---

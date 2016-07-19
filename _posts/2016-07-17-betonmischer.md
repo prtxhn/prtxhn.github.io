@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: Beyond good and evil
+title: "Grüne" Stadtpolitik besteht leider aus Beton
 category: blog
 tags: [Stadtentwicklung]  
-summary:  
+summary:  Wir stören das erfolgreich
 image: /images/blog/Postkarte_Betonmischer-page001.png
 ---

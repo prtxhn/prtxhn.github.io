@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Willst du mit mir wählen
+title: Willst du mit mir wählen?
 category: blog
 tags: [Verwaltung]  
 summary:  
