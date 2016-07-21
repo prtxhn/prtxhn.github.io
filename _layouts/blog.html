@@ -17,13 +17,13 @@
 
 			<div style='clear: both'></div>
 		</div> 
-		<div id='content' style='background-image:url("{{page.image}}"); background-position: center center;   background-size: cover;' class="layer">
+		<div id='content' style='background-image:url("/images/blog/large/{{page.image}}"); background-position: center center;   background-size: cover;' class="layer">
 		<div id="closer">
                   <div><div> <a title="overview" href="/">&nbsp;</a> </div></div>
                 </div>
 
 			<div id='page'>
-        <img src="{{ page.image }}" class="mainimg"/> 
+        <img src="/images/blog/large/{{ page.image }}" class="mainimg"/> 
         <h1 id='page-title'>{{page.title}}</h1>
 <!--         <h2 id='page-summary'>{{page.summary}}</h1>  -->
         
@@ -57,7 +57,7 @@
                   <li>  
 <!--                     {{otherpage.title}} -->
                     <a href="{{otherpage.url}}">
-                      <img src="{{otherpage.image}}"/>
+                      <img src="/images/blog/small/{{otherpage.image}}"/>
                     </a>
                     
 <!--                     {{otherpage.path}} -->

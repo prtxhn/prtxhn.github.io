@@ -4,5 +4,5 @@ title: Wer ohne Sünde ist, der ziehe die erste Line
 category: blog
 tags: [Sucht]  
 summary: Dope in Nutzerhand!
-image: /images/blog/suende.png
+image: suende.png
 ---
