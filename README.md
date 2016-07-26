@@ -4,13 +4,23 @@ Ein Blogpost besteht aus 3 Komponenten:
 - Metadaten. 
 
 Das Großbild muss nach 
-https://github.com/prtxhn/prtxhn.github.io/tree/master/images/blog/large
+`https://github.com/prtxhn/prtxhn.github.io/tree/master/images/blog/large`
+
+Link zum Hochladen:
+https://github.com/prtxhn/prtxhn.github.io/upload/master/images/blog/large
 
 Das Kleinbild muss nach
-https://github.com/prtxhn/prtxhn.github.io/tree/master/images/blog/small
+`https://github.com/prtxhn/prtxhn.github.io/tree/master/images/blog/small`
+
+Link zum Hochladen
+https://github.com/prtxhn/prtxhn.github.io/upload/master/images/blog/small
 
 Die Metadaten müssen nach 
-https://github.com/prtxhn/prtxhn.github.io/tree/master/_posts
+`https://github.com/prtxhn/prtxhn.github.io/tree/master/_posts`
+
+Neue Metadatendatei anlegen:
+https://github.com/prtxhn/prtxhn.github.io/new/master/_posts
+
 
 Die Metadatendatei hat die folgende Namenskonvention:
 - `2016-99-99-sinnvollername.md`
@@ -25,7 +35,7 @@ category: blog
 title: Schmissiger Titel
 summary: Nützliche Zusatzinfo
 image: bildname.jpg
-tags: [Tag1,Tag2]  
+tags: [Tag1,Tag2]
 ---
 ```
 
@@ -56,7 +66,7 @@ Mehr steht in den Metadatendateien nicht.
 - `Bürgerbeteiligung`
 - `FraktionPlus`
 
-Die Tags werden in `https://github.com/prtxhn/prtxhn.github.io/blob/master/_data/programm.yaml` nachgeschlagen und müssen genau so geschrieben werden, wie in dieser Datei.
+Die Tags werden in https://github.com/prtxhn/prtxhn.github.io/blob/master/_data/programm.yaml nachgeschlagen werden und müssen genau so geschrieben werden, wie in dieser Datei.
 
 Wenn Großbild, Kleinbild und Metadaten hochgeladen sind, dauert es ca. 1 Minute bis die Seite aktualisiert ist. Bitte überprüfen, ob die Seite korrekt angezeigt wird in 
 - Übersicht
