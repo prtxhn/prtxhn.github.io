@@ -1,20 +1,74 @@
-##Saigon - Mansonry Jekyll Blog Theme
+Ein Blogpost besteht aus 3 Komponenten:
+- einem Bild mit einer Breite von 1000px (Großbild)
+- das gleiche Bild in einer Breite von 400px (Kleinbild)
+- Metadaten. 
 
-* Color palette of http://clrs.cc
-* Demo http://hoffli.github.io/saigon-jekyll-theme/
+Das Großbild muss nach 
+`https://github.com/prtxhn/prtxhn.github.io/tree/master/images/blog/large`
 
-Based on a jekyll mansonry theme by Pasindu:
+Link zum Hochladen:
+https://github.com/prtxhn/prtxhn.github.io/upload/master/images/blog/large
 
-* Original demo - http://pasindud.github.io/
-* Dev by Pasindu De Silva
-* Authored by [Arunoda](https://github.com/arunoda)
+Das Kleinbild muss nach
+`https://github.com/prtxhn/prtxhn.github.io/tree/master/images/blog/small`
 
-##License
+Link zum Hochladen
+https://github.com/prtxhn/prtxhn.github.io/upload/master/images/blog/small
 
-The MIT License (MIT)
+Die Metadaten müssen nach 
+`https://github.com/prtxhn/prtxhn.github.io/tree/master/_posts`
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Neue Metadatendatei anlegen:
+https://github.com/prtxhn/prtxhn.github.io/new/master/_posts
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Die Metadatendatei hat die folgende Namenskonvention:
+- `2016-99-99-sinnvollername.md`
+wobei `99` und `sinnvollername` entsprechend ersetzt werden müssen
+
+In den Metadaten muss folgendes angegeben werden:
+
+```
+---
+layout: blog
+category: blog
+title: Schmissiger Titel
+summary: Nützliche Zusatzinfo
+image: bildname.jpg
+tags: [Tag1,Tag2]
+---
+```
+
+Mehr steht in den Metadatendateien nicht.
+
+`layout` und `category` sind immer `blog`
+
+`title`  muss ausgefüllt werden und kommt auf dem Post und in der Übersicht zu stehen.
+
+`summary` ist so eine Art Unterüberschrift und ist optional.
+
+`image` ist der Name des Bildes ohne Pfad, aber mit Dateinamenerweiterung (`jpg`,`png`). Besser kein svg verwenden, weil die Leute wohl unsere Fonts nicht haben
+
+`tags` sind einer oder mehrere der folgenden:
+- `Präambel`
+- `Stadtentwicklung`
+- `Schule`
+- `Energie`
+- `Verkehr`
+- `Migration`
+- `Geschlechterpolitik`
+- `Kultur`
+- `Kiezleben`
+- `Sucht`
+- `Finanzen`
+- `Freifunk`
+- `Verwaltung`
+- `Bürgerbeteiligung`
+- `FraktionPlus`
+
+Die Tags werden in https://github.com/prtxhn/prtxhn.github.io/blob/master/_data/programm.yaml nachgeschlagen werden und müssen genau so geschrieben werden, wie in dieser Datei.
+
+Wenn Großbild, Kleinbild und Metadaten hochgeladen sind, dauert es ca. 1 Minute bis die Seite aktualisiert ist. Bitte überprüfen, ob die Seite korrekt angezeigt wird in 
+- Übersicht
+- Post
+- getaggte Programmabschnitte
