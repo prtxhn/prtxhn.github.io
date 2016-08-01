@@ -640,30 +640,38 @@ vertical-align:middle;
 }
 
 
-.listenkandidat{
-  max-width:800px;
-  float:none;
-  clear:both;
-  text-align:left;
+.listenkandidat {
+    border-radius: 5px;
+/*     clear: both; */
+    max-width: 800px;
+    min-width: 45%;
+    padding: 10px;
+    margin-bottom:30px;
+    box-shadow: 0 0px 5px #333;        
 }
 
-
-.listenkandidat:nth-child(even) {
-  background:#333;
+.listenkandidat:nth-child(2n) {
+/*     background: #333; */
+    float: left;
 }
 
-.listenkandidat:nth-child(odd) {
-  background:#444;
+.listenkandidat:nth-child(2n+1) {
+/*     background: #444;  */
+    float: right;
+/*     text-align: right; */
 }
 
+.listenkandidat:nth-child(3) {
+    margin-top: 50px;
+}
 
 .listenkandidat:nth-child(2n) img{
-  float:left;
+/*   float:left; */
   margin-right: 5px;
 }
 
 .listenkandidat:nth-child(2n-1) img{
-  float:right;
+/*   float:right; */
   margin-left:5px;
 }
 
@@ -672,6 +680,8 @@ vertical-align:middle;
   box-shadow: 0 0px 5px #333;        
   margin-bottom:10px;
 }
+
+
 
 .listenkandidat h2{
   margin-left:10px;
