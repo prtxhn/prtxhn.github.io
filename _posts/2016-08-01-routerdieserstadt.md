@@ -3,6 +3,6 @@ layout: blog
 category: blog
 title: Router dieser Stadt vereinigt euch
 summary: Netze in Nutzerhand
-image: routerdieserstadt.png
+image: antennen.png
 tags: [Freifunk,Kiezleben,Schule]
 ---

@@ -4,5 +4,5 @@ title: Finanzen
 category: Programmpunkt
 tags: [Finanzen]
 summary: 
-image: moderneverwaltung.png
+image: atomkraftwerk.jpg
 ---
