@@ -670,6 +670,7 @@ vertical-align:middle;
 .listenkandidat img{
   width:300px;
   box-shadow: 0 0px 5px #333;        
+  margin-bottom:10px;
 }
 
 .listenkandidat h2{
