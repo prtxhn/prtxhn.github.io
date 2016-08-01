@@ -406,7 +406,8 @@ section#home-hero{
 	}
 	#posts ul{width:100%}
 	.rightblock{
-		width:20%;
+                width:19%;
+                margin-left:1%;
 		float:left;
 	}
 	.rightblock b, .rightblock strong, .rightblock a {color: #555}
