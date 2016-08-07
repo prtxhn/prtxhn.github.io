@@ -4,5 +4,5 @@ title: Sucht- und Drogenpolitik
 category: Programmpunkt
 tags: [Sucht]
 summary: 
-image: machtlack.png
+image: machtlack.jpg
 ---
