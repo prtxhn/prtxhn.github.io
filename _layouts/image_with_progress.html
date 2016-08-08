@@ -27,9 +27,15 @@
 
 			{% assign percentage = 100*page.value/page.max %}
 			<div class = "progress-bar">
-				<div class = "percentage" style = "width : {{percentage}}%">
+				<span class = "max">
+					{{page.max}}
+				</span>
+				<div class = "progress" style = "width : {{percentage}}%; background-image: url(/images/blog/small/{{page.progressbar_background}})">
 					<span class = "value">
 						{{page.value}}
+					</span>
+					<span class = "percentage">
+						{{percentage}}
 					</span>
 				</div>
 			</div>
