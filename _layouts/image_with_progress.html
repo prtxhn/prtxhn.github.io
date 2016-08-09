@@ -25,17 +25,20 @@
 			>
 			</div>
 
-			{% assign percentage = 100*page.value/page.max %}
+			{% assign value = page.value | to_integer %}
+			{% assign max = page.max | to_integer %}
+			{% assign percentage = 100*value/max %}
+			{% assign unit = page.unit %}
 			<div class = "progressbar">
-				<span class = "max">
-					{{page.max}}
-				</span>
-				<div class = "progress" style = "width : {{percentage}}%; background-image: url(/images/blog/small/{{page.progressbar_background}})">
-					<span class = "value">
-						{{page.value}}
-					</span>
+				<div class = "max">
+					<div>{{max}}{{unit}}</div>
+				</div>
+				<div class = "progress" style = "width : {{percentage}}%;">
+					<div class = "value">
+						<div>{{value}} {{unit}}</div>
+					</div>
 					<span class = "percentage">
-						{{percentage}}
+						<div>{{percentage}}</div>
 					</span>
 				</div>
 			</div>
