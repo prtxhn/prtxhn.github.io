@@ -696,11 +696,14 @@ vertical-align:middle;
 
 
 .image {
-	width:					90%;
-	height:					15em;
+	display:				block;
+	margin:					auto;
+	width:					80%;
+	height:					30em;
 	background-size:		contain;
 	background-position:	50% 50%;
 	background-color:		transparent;
+	background-repeat:		no-repeat;
 }
 
 .progressbar {
