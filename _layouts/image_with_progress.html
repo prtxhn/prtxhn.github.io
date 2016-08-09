@@ -30,18 +30,16 @@
 			{% assign percentage = current_value | times: 100.00 | divided_by: max  %}
 			{% assign unit = page.unit %}
 		
-			10/4 : {{10 | divided_by: 4}}
-			{{current_value | times: 100}}
 			<div class = "progressbar">
 				<div class = "max">
 					<div>{{max}}{{unit}}</div>
 				</div>
-				<div class = "progress" style = "width : {{percentage}}%;">
+				<div class = "progress" style = "width : {{percentage}}%">
 					<div class = "value">
 						<div>{{current_value}}{{unit}}</div>
 					</div>
 					<span class = "percentage">
-						<div>{{percentage}}</div>
+						<div>{{percentage}}%</div>
 					</span>
 				</div>
 			</div>
