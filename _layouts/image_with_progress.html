@@ -25,16 +25,16 @@
 			>
 			</div>
 
-			{% assign value = page.value | to_integer %}
+			{% assign xvalue = page.value | to_integer %}
 			{% assign max = page.max | to_integer %}
 			{% assign percentage = value | divided_by: max | times: 100 %}
 			{% assign unit = page.unit %}
 
-			{{value | times:1}}
-			{{value | times:2}}
-			{{value | times:2 | divided_by:4}}
+			{{xvalue | times:1}}
+			{{xvalue | times:2}}
+			{{xvalue | times:2 | divided_by:4}}
 			{{100 | divided_by: 2}}
-			{{value | divided_by: max | times: 100}}
+			{{xvalue | divided_by: max | times: 100}}
 
 			<div class = "progressbar">
 				<div class = "max">
