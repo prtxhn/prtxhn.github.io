@@ -25,8 +25,8 @@
 			>
 			</div>
 
-			{% assign current_value = page.current_value | to_integer %}
-			{% assign max = page.max | to_integer %}
+			{% assign current_value = page.current_value | times: 11%}
+			{% assign max = page.max %}
 			{% assign percentage = current_value | divided_by: max | times: 100 %}
 			{% assign unit = page.unit %}
 
