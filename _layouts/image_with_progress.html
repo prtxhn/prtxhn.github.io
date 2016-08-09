@@ -30,7 +30,7 @@
 			{% assign percentage = current_value | divided_by: max | times: 100 %}
 			{% assign unit = page.unit %}
 
-			{{current_value | divided_by:2}}
+			{{current_value | divided_by:max}}
 			{{current_value | times:2}}
 		
 			<div class = "progressbar">

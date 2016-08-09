@@ -741,12 +741,14 @@ vertical-align:middle;
 .progress .value {
 	display:				inline-block;
 	position:				absolute;
+	top:					0;
 	right:					0;
 	width:					10em;
 	margin-left:			5em;
 	overflow:				visible;
 	top:					110%;
 	color:					#fff;
+	line-height:			2.25em;
 }
 
 .progress .percentage {
