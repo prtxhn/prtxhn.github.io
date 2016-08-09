@@ -713,8 +713,8 @@ vertical-align:middle;
 	margin:					2em auto 5em;
 	padding-top:			2.25em;
 	background-color:		#000;
-	box-shadow:				0 0 1em rgba(255,255,255,0.5);
-	border-radius:			1em;
+	box-shadow:				0 0 1em rgba(255,255,255,0.5), 0 0 1.4em rgba(0, 0, 0, 0.80) inset;
+	border-radius:			0.8em;
 }
 
 .max {
@@ -733,10 +733,10 @@ vertical-align:middle;
 	bottom:					0;
 	background-color:		#d9327c;
 	background-size:		cover;
-	box-shadow:				0 0 1.4em rgba(0, 0, 0, 0.80) inset;
 	text-align:				right;
-	border-radius:			1em 0 0 1em;
+	border-radius:			0.8em 0 0 0.8em;
 }
+
 
 .progress .value {
 	display:				block;
@@ -773,9 +773,10 @@ vertical-align:middle;
 	font-weight:			bold;
 	text-shadow:			0 0 0.5em #000;
 	color:					#fff;
-	box-shadow:				0 0 1px rgba(0,0,0,0.8) inset;
-	font-size:				0.8;
+	box-shadow:				0 0 1px rgba(0,0,0,0.8);
+	font-size:				0.8em;
 	border-radius:			0.5em;
+	text-align:				center;
 }
 
 
