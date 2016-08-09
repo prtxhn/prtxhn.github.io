@@ -2,7 +2,7 @@
 layout: image_with_progress
 title: Spenden123
 image: sichereexistenz.png
-value: 1337
+current_value: 1337
 max: 10000
 unit: €
 ---
