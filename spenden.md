@@ -1,7 +1,7 @@
 ---
 layout: image_with_progress
 title: Spenden123
-image: sichereexistenz.png
+image: Gefahrengebiet_Dispo.jpg
 current_value: 1337
 max: 10000
 unit: €
