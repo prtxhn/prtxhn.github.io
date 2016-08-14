@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="/css/socialicious.css">
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/css/monokai.css">
+		<link href="/blog/rss.xml" rel="alternate" type="application/rss+xml" title="{{site.blog_title}}" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>{{page.title}} - {{ site.blog_title }}</title>
+		<script type="text/javascript" src='/js/highlight.pack.js'></script>
+		<script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+	</head>
+	<body>
+		<div id='layout'>
+			{% include header.html %}
+
+			<div style='clear: both'></div>
+		</div> 
+		
+		<div id='content' class="layer">
+
+			<div 
+				class = "image" 
+				style = "background-image:url('/images/blog/large/{{page.image}}');"
+			>
+			</div>
+
+			{% assign current_value = page.current_value %}
+			{% assign max = page.max %}
+			{% assign percentage = current_value | times: 100.00 | divided_by: max  %}
+			{% assign unit = page.unit %}
+		
+			<div class = "progressbar">
+				<div class = "max">
+					<div>{{max}}{{unit}}</div>
+				</div>
+				<div class = "progress" style = "width : {{percentage}}%">
+					<div class = "value">
+						<div>{{current_value}}{{unit}}</div>
+					</div>
+					<span class = "percentage">
+						<div>{{percentage}}%</div>
+					</span>
+				</div>
+			</div>
+
+			{{page.content}}
+			
+			<div style='clear:both'></div>
+		</div>
+		<div id='footer'>
+			{{site.full_name}} - {{site.copyright_year}}
+		</div>
+	</body>
+</html>
