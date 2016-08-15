@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 layout: image_with_progress
 title: Unterstütze uns!
 image: Gefahrengebiet_Dispo.svg
@@ -12,6 +11,7 @@ unit: €
 
 Lieber Fan, Verehrer, Konkurrent oder Hasser.
 
+<pre>
 ~~~~~ tl;dr ~~~~~
 Jetzt spenden!
 Kontoinhaber: Piratenpartei Friedrichshain-Kreuzberg
@@ -20,6 +20,7 @@ IBAN: DE42 4306 0967 1103 7132 04
 BIC:
 GENODEM1GLS
 ~~~~~~~~~~~~~~
+</pre>
 
 Du hast Geld übrig? Bitte weiterlesen.
 Du hast kein Geld, aber noch eine Stimme übrig? Bitte <a href="http://prtxhn.github.io/programm-prtxhn.pdf">hier</a> überzeugen.
