@@ -1,6 +1,7 @@
 ---
+<<<<<<< HEAD
 layout: image_with_progress
-title: Spenden123
+title: Unterstütze uns!
 image: Gefahrengebiet_Dispo.svg
 current_value: 2000
 max: 17000
@@ -80,3 +81,4 @@ Wir hauen raus was geht. Mit eurer Hilfe.
 Wir bedanken uns dann auf der Wahlparty persönlich bei dir.
 
 #prtxhn for the win
+
