@@ -35,13 +35,11 @@ BIC:	GENODEM1GLS
 </pre>
 
 
-<div class ="tac">
-Du hast Geld übrig? Bitte weiterlesen.
+Du hast Geld übrig? Bitte weiterlesen. 
 
-Du hast kein Geld, aber noch eine Stimme übrig?
+Du hast kein Geld, aber noch eine Stimme übrig? 
 
-Bitte [hier](http://prtxhn.github.io/programm-prtxhn.pdf) überzeugen.
-</div>
+Bitte [hier](http://prtxhn.github.io/programm-prtxhn.pdf) überzeugen. 
 
 Wir machen uns nun seit Monaten lang und rauben uns den Schlaf, um die
 15608 Stimmen nochmals zu erreichen und es diesmal mit dem Stadtrat auf
@@ -72,20 +70,16 @@ an unseren Erzeugnissen.
 - 14,7% 2011 Wir packen die BVV wieder. Und sie braucht uns.
 - Platz 5 auf dem <a
 href="https://pbs.twimg.com/media/CpltVpDWAAAlZxX.jpg:large">Wahlzettel</a>
-- 150 Anträge, 70 Anfragen
-http://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/bezirksverordnetenversammlung/online/vo040.asp?ATLFDNRM=88
-- Eine17er-Liste, 5 gute Direktkandidaten und nen geiler Spirit.(Link to
-http://prtxhn.github.io/liste/)
-- Fraktion Plus (insert Link http://prtxhn.github.io/fraktionplus/)
+- [150 Anträge, 70 Anfragen](http://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/bezirksverordnetenversammlung/online/vo040.asp?ATLFDNRM=88)
+- Eine17er-Liste, 5 gute Direktkandidaten und nen geiler [Spirit](http://prtxhn.github.io/liste/).
+- [Fraktion Plus](http://prtxhn.github.io/fraktionplus/)
 - Wahlprogramm 2016 per Liquid Feedback beschlossen
 - Im Januar Kampagne geplant, im März ausgelöst, im Mai am Rollen und
 jetzt am durch die Decke gehen
 - Wir machen gerade auf allen Kanälen Action (FB,Twitter,Instagram und
 auf der Straße) Checkt die Hashtags. #prtxhn
 - Menschen finden unsere Designs und Sprüche so geil, dass sie sie
-selbst in Netzwerke kippen und dort teilen geteilt werden. (Insert
-Twitter Wahlbeobachter
-https://twitter.com/wahl_beobachter/status/761077316613132288)
+selbst in Netzwerke kippen und dort [teilen](https://twitter.com/wahl_beobachter/status/761077316613132288).
 - Bereits 2013 haben wir mit der "Macht Lack - Grumpycat" und "Wähle
 dein Team" bundesweit für Aufmerksamkeit gesorgt und wurden oft und
 gerne kopiert. Nun wiederholen wir diesen Erfolg abermals.
