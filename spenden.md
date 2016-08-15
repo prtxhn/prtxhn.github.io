@@ -34,11 +34,14 @@ BIC:	GENODEM1GLS
 ~~~~~~~~~~~~~~~~~
 </pre>
 
+
+<div class ="tac">
 Du hast Geld übrig? Bitte weiterlesen.
 
 Du hast kein Geld, aber noch eine Stimme übrig?
 
 Bitte [hier](http://prtxhn.github.io/programm-prtxhn.pdf) überzeugen.
+</div>
 
 Wir machen uns nun seit Monaten lang und rauben uns den Schlaf, um die
 15608 Stimmen nochmals zu erreichen und es diesmal mit dem Stadtrat auf
