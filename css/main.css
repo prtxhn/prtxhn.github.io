@@ -695,15 +695,25 @@ vertical-align:middle;
 /*image_with_progress*/
 
 
+
+
+
+#image-progress {
+	tetx-align:				left;
+	padding:				1rem;
+}
+
+
 .image {
 	display:				block;
 	margin:					auto;
 	width:					100%;
-	padding-top:			20%;
+	padding-top:			30%;
 	background-size:		contain;
 	background-position:	50% 50%;
 	background-color:		transparent;
 	background-repeat:		no-repeat;
+	margin-bottom:			5rem;
 }
 
 .progressbar {
@@ -743,13 +753,12 @@ vertical-align:middle;
 .progress .value {
 	display:				block;
 	position:				absolute;
-	top:					0;
+	bottom:					100%;
 	right:					0;
 	width:					10em;
 	margin-right:			-5em;
 	margin-top:				1em;
 	overflow:				visible;
-	top:					100%;
 	color:					#fff;
 	text-align:				center;
 }
@@ -757,15 +766,15 @@ vertical-align:middle;
 .progress .value:before{
 	content:				'';
 	font-size:				0.5em;
-	top:					-0.8em;
+	bottom:					-0.8em;
 	left:					50%;
 	position:				absolute;
 	display:				block;
 	border-width:			1em;
 	border-style:			solid;
 	border-color:			transparent;
-	border-bottom-color:	#d9327c;
-	margin-top:				-1em;
+	border-top-color:		#d9327c;
+	margin-bottom:			-1em;
 	margin-left:			-1em;
 }
 
