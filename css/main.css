@@ -699,10 +699,18 @@ vertical-align:middle;
 
 
 #image-progress {
-	tetx-align:				left;
+	text-align:				left;
 	padding:				1rem;
 }
 
+
+#image-progress h2 {
+	text-align:				center;
+}
+
+#image-progress a {
+	color:					#d9327c
+}
 
 .image {
 	display:				block;
@@ -757,7 +765,7 @@ vertical-align:middle;
 	right:					0;
 	width:					10em;
 	margin-right:			-5em;
-	margin-top:				1em;
+	margin-bottom:			0.5em;
 	overflow:				visible;
 	color:					#fff;
 	text-align:				center;

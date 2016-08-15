@@ -13,12 +13,16 @@ unit: €
 
 <pre class ="tac">
 ~~~~~ tl;dr ~~~~~
-	Jetzt spenden!
+
+Jetzt spenden!
+
+Kontoinhaber: 
+Piratenpartei 
+Friedrichshain-Kreuzberg
 </pre>
 
 <div class ="tac">
 <pre class ="iblock tal">
-Kontoinhaber: Piratenpartei Friedrichshain-Kreuzberg
 Bank: 	GLS
 IBAN: 	DE42 4306 0967 1103 7132 04
 BIC:	GENODEM1GLS

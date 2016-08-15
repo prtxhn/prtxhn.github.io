@@ -19,7 +19,7 @@
 		
 		<div id='content' class="hp">
 
-			<div id = "image-progress" class="leftblock">	
+			<div id = "image-progress">	
 
 				<div 
 					class = "image" 
@@ -29,7 +29,7 @@
 
 				{% assign current_value = page.current_value %}
 				{% assign max = page.max %}
-				{% assign percentage = current_value | times: 100.00 | divided_by: max  %}
+				{% assign percentage = current_value | times: 100.00 | divided_by: max | round: 2  %}
 				{% assign unit = page.unit %}
 			
 				<div class = "progressbar">
@@ -49,9 +49,6 @@
 				{{page.content}}
 			</div>
 			
-			<div class="rightblock">
-				{% include sidebar.html %}
-			</div>
 			<div style='clear:both'></div>
 		</div>
 		<div id='footer'>
