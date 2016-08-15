@@ -64,12 +64,10 @@ Bereits ohne das Geld haben wir die Unfragewerte von "nicht messbar" auf
 
 Wenn das nicht reicht, warum sollte man ausgerechnet uns Geld geben?
 
-- Unser bisheriges Zeug liegt auf <a
-href="https://github.com/prtxhn/prtxhn">Github</a>. Ihr profitiert also
+- Unser bisheriges Zeug liegt auf [GitHub](https://github.com/prtxhn/prtxhn). Ihr profitiert also
 an unseren Erzeugnissen.
 - 14,7% 2011 Wir packen die BVV wieder. Und sie braucht uns.
-- Platz 5 auf dem <a
-href="https://pbs.twimg.com/media/CpltVpDWAAAlZxX.jpg:large">Wahlzettel</a>
+- Platz 5 auf dem [Wahlzettel](https://pbs.twimg.com/media/CpltVpDWAAAlZxX.jpg:large)
 - [150 Anträge, 70 Anfragen](http://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/bezirksverordnetenversammlung/online/vo040.asp?ATLFDNRM=88)
 - Eine17er-Liste, 5 gute Direktkandidaten und nen geiler [Spirit](http://prtxhn.github.io/liste/).
 - [Fraktion Plus](http://prtxhn.github.io/fraktionplus/)
