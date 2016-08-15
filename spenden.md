@@ -9,21 +9,31 @@ unit: €
 
 
 
-Lieber Fan, Verehrer, Konkurrent oder Hasser.
+##Lieber Fan, Verehrer, Konkurrent oder Hasser.
 
-<pre>
+<pre class ="tac">
 ~~~~~ tl;dr ~~~~~
-Jetzt spenden!
-Kontoinhaber: Piratenpartei Friedrichshain-Kreuzberg
-Bank: GLS
-IBAN: DE42 4306 0967 1103 7132 04
-BIC:
-GENODEM1GLS
-~~~~~~~~~~~~~~
+	Jetzt spenden!
+</pre>
+
+<div class ="tac">
+	<pre class ="iblock tal">
+		Kontoinhaber: Piratenpartei Friedrichshain-Kreuzberg
+		Bank: 	GLS
+		IBAN: 	DE42 4306 0967 1103 7132 04
+		BIC:	GENODEM1GLS
+	</pre>
+</div>
+
+<pre class = "tac">
+~~~~~~~~~~~~~~~~~
 </pre>
 
 Du hast Geld übrig? Bitte weiterlesen.
-Du hast kein Geld, aber noch eine Stimme übrig? Bitte <a href="http://prtxhn.github.io/programm-prtxhn.pdf">hier</a> überzeugen.
+
+Du hast kein Geld, aber noch eine Stimme übrig?
+
+Bitte <a href="http://prtxhn.github.io/programm-prtxhn.pdf">hier</a> überzeugen.
 
 Wir machen uns nun seit Monaten lang und rauben uns den Schlaf, um die
 15608 Stimmen nochmals zu erreichen und es diesmal mit dem Stadtrat auf
@@ -32,9 +42,10 @@ Wir liefern euch Social Media und Offlinepropaganda mit Herz und Hirn.
 
 Klar. Dit kostet allet Jeld. Je mehr ihr uns zum Endspurt helft, umal
 umso geiler wird das Finale.
-Ganur Ganz nach dem Motto: Wenn uns die Echsenmenschen den LED-Henkel
-klauen (Insert Picture: https://t.co/iDI9U52Q4J ) dann kontern wir mit
-einem LED-Grossplakat. Eat this!
+Ganz nach dem Motto: Wenn uns die Echsenmenschen den LED-Henkel [![LED-Henkel][1]][2]
+[1]: https://t.co/iDI9U52Q4J
+[2]: https://t.co/iDI9U52Q4J
+klauen  dann kontern wir mit einem LED-Grossplakat. Eat this!
 
 Wir fordern deshalb die Landesverbände und den Bundesvorstand der
 Piratenpartei und alle Supporter an dieser Stelle dazu auf, uns knapp 5

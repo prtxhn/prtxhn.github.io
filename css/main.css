@@ -796,3 +796,17 @@ vertical-align:middle;
 .progress .percentage > * {
 	font-size:				0.8em;
 }
+
+
+
+.tac {
+	text-align:				center!important;
+}
+
+.tal {
+	text-align:				left;
+}
+
+.iblock {
+	display:				inline-block;
+}
