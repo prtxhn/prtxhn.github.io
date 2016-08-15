@@ -700,7 +700,7 @@ vertical-align:middle;
 
 #image-progress {
 	text-align:				left;
-	padding:				1rem;
+	padding:				0 2rem;
 }
 
 
@@ -709,14 +709,14 @@ vertical-align:middle;
 }
 
 #image-progress a {
-	color:					#d9327c
+	color:					#d9327c;
 }
 
 .image {
 	display:				block;
 	margin:					auto;
 	width:					100%;
-	padding-top:			30%;
+	padding-top:			33%;
 	background-size:		contain;
 	background-position:	50% 50%;
 	background-color:		transparent;

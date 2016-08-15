@@ -11,6 +11,7 @@ unit: €
 
 ## Lieber Fan, Verehrer, Konkurrent oder Hasser.
 
+
 <pre class ="tac">
 ~~~~~ tl;dr ~~~~~
 
@@ -46,9 +47,7 @@ Wir liefern euch Social Media und Offlinepropaganda mit Herz und Hirn.
 
 Klar. Dit kostet allet Jeld. Je mehr ihr uns zum Endspurt helft, umal
 umso geiler wird das Finale.
-Ganz nach dem Motto: Wenn uns die Echsenmenschen den LED-Henkel [![LED-Henkel][1]][2]
-[1]: https://t.co/iDI9U52Q4J
-[2]: https://t.co/iDI9U52Q4J
+Ganz nach dem Motto: Wenn uns die Echsenmenschen den [LED-Henkel](https://t.co/iDI9U52Q4J) 
 klauen  dann kontern wir mit einem LED-Grossplakat. Eat this!
 
 Wir fordern deshalb die Landesverbände und den Bundesvorstand der
