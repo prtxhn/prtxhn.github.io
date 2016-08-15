@@ -1,7 +1,7 @@
 ---
 layout: image_with_progress
 title: Unterstütze uns!
-image: Gefahrengebiet_Dispo.svg
+image: Gefahrengebiet_Dispo.jpg
 current_value: 2000
 max: 17000
 unit: €
@@ -9,7 +9,7 @@ unit: €
 
 
 
-##Lieber Fan, Verehrer, Konkurrent oder Hasser.
+## Lieber Fan, Verehrer, Konkurrent oder Hasser.
 
 <pre class ="tac">
 ~~~~~ tl;dr ~~~~~
@@ -17,12 +17,12 @@ unit: €
 </pre>
 
 <div class ="tac">
-	<pre class ="iblock tal">
-		Kontoinhaber: Piratenpartei Friedrichshain-Kreuzberg
-		Bank: 	GLS
-		IBAN: 	DE42 4306 0967 1103 7132 04
-		BIC:	GENODEM1GLS
-	</pre>
+<pre class ="iblock tal">
+Kontoinhaber: Piratenpartei Friedrichshain-Kreuzberg
+Bank: 	GLS
+IBAN: 	DE42 4306 0967 1103 7132 04
+BIC:	GENODEM1GLS
+</pre>
 </div>
 
 <pre class = "tac">
@@ -33,7 +33,7 @@ Du hast Geld übrig? Bitte weiterlesen.
 
 Du hast kein Geld, aber noch eine Stimme übrig?
 
-Bitte <a href="http://prtxhn.github.io/programm-prtxhn.pdf">hier</a> überzeugen.
+Bitte [hier](http://prtxhn.github.io/programm-prtxhn.pdf) überzeugen.
 
 Wir machen uns nun seit Monaten lang und rauben uns den Schlaf, um die
 15608 Stimmen nochmals zu erreichen und es diesmal mit dem Stadtrat auf
