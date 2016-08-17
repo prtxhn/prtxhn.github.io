@@ -4,5 +4,5 @@ title: Bürgerbeteiligung
 category: Programmpunkt
 tags: [Bürgerbeteiligung]
 summary: 
-image: natuerlichwurdensiebeteiligtp.png
+image: natuerlichwurdensiebeteiligthoch.png
 ---
