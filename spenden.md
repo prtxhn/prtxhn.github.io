@@ -2,7 +2,7 @@
 layout: image_with_progress
 title: Unterstütze uns!
 image: Gefahrengebiet_Dispo.jpg
-current_value: 2000
+current_value:  4473.45
 max: 17000
 unit: €
 ---
