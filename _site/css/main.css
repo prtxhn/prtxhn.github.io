@@ -687,3 +687,172 @@ vertical-align:middle;
 .listenkandidat h2{
   margin-left:10px;
 }
+
+
+
+
+
+/*image_with_progress*/
+
+
+
+
+
+#image-progress {
+	text-align:				left;
+	padding:				0 2rem;
+}
+
+
+#image-progress h2 {
+	text-align:				center;
+}
+
+#image-progress a {
+	color:					#d9327c;
+}
+
+.image {
+	display:				block;
+	margin:					auto;
+	width:					100%;
+	padding-top:			33%;
+	background-size:		contain;
+	background-position:	50% 50%;
+	background-color:		transparent;
+	background-repeat:		no-repeat;
+	margin-bottom:			5rem;
+}
+
+.progressbar {
+	position:				relative;
+	display:				block;
+	max-width:				60em;
+	margin:					2em auto 5em;
+	padding-top:			2.25em;
+	background-color:		#000;
+	box-shadow:				0 0 1em rgba(255,255,255,0.5);
+	border-radius:			0.8em;
+}
+
+.max {
+	position:				absolute;
+	top:					100%;
+	margin-top:				0.5em;
+	right:					-1em;
+	color:					#fff;
+	line-height:			1.25em;
+}
+
+.max:before{
+	content:				'';
+	font-size:				0.5em;
+	top:					-0.8em;
+	right:					2em;
+	position:				absolute;
+	display:				block;
+	border-width:			1em;
+	border-style:			solid;
+	border-color:			transparent;
+	border-bottom-color:	#77cc55;
+	margin-top:				-1em;
+	margin-left:			-1em;
+}
+
+.max > * {
+	display:				inline-block;
+	padding:				0.5em 1em;
+	background-color:		#77cc55;
+	font-weight:			bold;
+	text-shadow:			0 0 0.5em #000;
+	color:					#fff;
+	box-shadow:				0 0 1.0em -0.3em rgba(0, 0, 0, 0.8), 0 -1em 1.0em -0.3em rgba(0, 0, 0, 0.4) inset;
+	font-size:				0.9em;
+	border-radius:			0.5em;
+	text-align:				right;
+}
+
+
+.progress {
+	position:				absolute;
+	left:					0;
+	top:					0;
+	bottom:					0;
+	background-color:		#d9327c;
+	background-size:		cover;
+	padding-left:			1.4em;
+	box-shadow:				1.4em 0 1.4em rgba(0, 0, 0, 0.8) inset;
+	text-align:				right;
+	border-radius:			0.8em 0 0 0.8em;
+}
+
+
+.progress .value {
+	display:				block;
+	position:				absolute;
+	bottom:					100%;
+	right:					0;
+	width:					10em;
+	margin-right:			-5em;
+	margin-bottom:			0.5em;
+	overflow:				visible;
+	color:					#fff;
+	text-align:				center;
+}
+
+.progress .value:before{
+	content:				'';
+	font-size:				0.5em;
+	bottom:					-0.8em;
+	left:					50%;
+	position:				absolute;
+	display:				block;
+	border-width:			1em;
+	border-style:			solid;
+	border-color:			transparent;
+	border-top-color:		#d9327c;
+	margin-bottom:			-1em;
+	margin-left:			-1em;
+}
+
+.progress .value > * {
+	display:				inline-block;
+	padding:				0.5em;
+	background-color:		#d9327c;
+	font-weight:			bold;
+	text-shadow:			0 0 0.5em #000;
+	color:					#fff;
+	box-shadow:				0 0 1.0em -0.3em rgba(0, 0, 0, 0.8);
+	font-size:				0.8em;
+	border-radius:			0.5em;
+	text-align:				center;
+}
+
+
+.progress .percentage {
+	display:				inline-block;
+	color:					#000;
+	line-height:			2.25em;
+	margin:					0 1em;
+	font-weight:			bold;
+	text-shadow:			0 0 0.5em #000;
+	color:					#fff;
+}
+
+.progress .percentage > * {
+	font-size:				0.8em;
+}
+
+
+
+.tac {
+	text-align:				center!important;
+}
+
+.tal {
+	text-align:				left;
+}
+
+.iblock {
+	display:				inline-block;
+}
