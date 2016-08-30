@@ -14,14 +14,20 @@
 		<div id='layout'>
 			{% include header.html %}
 
-
-			<div style='clear: both'></div>
+			<div style='clear: both'></div>			
 		</div> 
+		
 		<div id='content' style='background-image:url("/images/blog/large/{{page.image}}"); background-position: center center;   background-size: cover;' class="layer">
-<div id="closer">
-                  <div><div> <a title="overview" href="/">&nbsp;</a> </div></div>
-                </div>
-			<div id='page'>
+                  <a title="overview" href="/">
+                  <div id="closer">
+                    <div>
+                      <div> 
+                        &nbsp;
+                      </div>
+                    </div>
+                  </div>
+                  </a> 
+		<div id='page'>
         <div class="categoryimgwrapper"/> 
         <ul id="categoryimglist"> <!--programm chapters-->
         {%for otherpage in site.categories.blog%} 
