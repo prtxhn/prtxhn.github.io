@@ -1,15 +1,20 @@
 ---
-layout: image_with_progress
+layout: category
 title: Unterstütze uns!
 image: Gefahrengebiet_Dispo.jpg
 current_value:  4473.45
 max: 17000
 unit: €
+tags: []
 ---
 
+<div>
+    <img src="/images/blog/large/Gefahrengebiet_Dispo.jpg"/>
+</div>
 
 
 <h2>Lieber Fan, Verehrer, Konkurrent oder Hasser,</h2>
+
 
 
 <pre class ="tac">
@@ -34,7 +39,27 @@ BIC:	GENODEM1GLS
 ~~~~~~~~~~~~~~~~~
 </pre>
 
+<!-- spendenblock -->
 
+                   {% assign percentage = page.current_value | times: 100.00 | divided_by: page.max |round: 2 %} 
+
+                   <div class = "progressbar">
+                           <div class = "max">
+                                   <div>{{page.max}}{{page.unit}}</div>
+                           </div>
+                           <div class = "progress" style = "width : {{percentage}}%">
+                                   <div class = "value">
+                                           <div>{{page.current_value}}{{page.unit}}</div>
+                                   </div>
+                                   <span class = "percentage">
+                                           <div>{{percentage}}%</div>
+                                   </span>
+                           </div>
+                   </div>
+                   <div style='clear:both'></div>
+<!--                    ende spendenblock -->
+
+<div id="pinklinks">
 Du hast Geld übrig? Bitte weiterlesen. 
 
 Du hast kein Geld, aber noch eine Stimme übrig? 
@@ -78,10 +103,14 @@ Wenn das nicht reicht, warum sollte man ausgerechnet uns Geld geben?
 <li>  Zur Hölle: Die Leute haben uns unsere Plakate von den Laternen geholt, weil die das so geil fanden!</li>
 </ul>
 
+<p>
 Und genau das Gleiche haben wir weiter vor.
 10m-Banner, Poster, Plakate, Postkarten.
 Wir hauen raus was geht. Mit eurer Hilfe.
 Wir bedanken uns dann auf der Wahlparty persönlich bei dir.
+</p>
 
+<p>
 #prtxhn for the win.
-
+</p>
+</div>
